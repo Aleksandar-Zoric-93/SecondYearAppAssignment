@@ -1,0 +1,11 @@
+package com.example.friends;
+
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class FriendsDatabase extends SQLiteOpenHelper {
+	
+	private static final String TAG = FriendsDatabase.class.getSimpleName();
+	private static final String DATABASE_NAME = "friends.db";
+
+
+}

@@ -1,0 +1,14 @@
+package com.example.friends;
+
+public class FriendsContract {
+
+	interface FriendsColumns{
+		String FRIENDS_NAME = "friends_name";
+		String FRIENDS_EMAIL = "friends_email";
+		String FREINDS_PHONE = "friends_phone";
+		
+		public static final String CONTENT_AUTHORITY = "me.davidcrowley.friends.provider";
+
+		}
+
+}
